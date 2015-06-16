@@ -18,20 +18,29 @@
 </nav>
 <main class="container">
     <div>
-        <form action="/my-handling-form-page" method="post" class="contact-form">
+        <form action="/my-handling-form-page" method="post" class="contact-form round-box">
             <h2>Contact Us</h2>
             <div>
-                <label for="name">Name:<input type="text" id="name" placeholder="Maria"/></label>
+                <label for="name">
+                    Name:
+                    <input type="text" id="name" placeholder="Maria" class="large-input"/>
+                </label>
             </div>
             <div>
-                <label for="mail">E-mail:<input type="email" id="mail" placeholder="mariao@wix.com"/></label>
+                <label for="mail">
+                    E-mail:
+                    <input type="email" id="mail" placeholder="mariao@wix.com" class="large-input"/>
+                </label>
             </div>
             <div>
-                <label for="msg">Message:<textarea id="msg" class="msg-txt-area" placeholder="Type text here..."></textarea></label>
+                <label for="msg">
+                    Message:
+                    <textarea id="msg" placeholder="Type text here..." class="large-input"></textarea>
+                </label>
             </div>
             <div>
                 <label for="lang">Your language:
-                    <select id="lang">
+                    <select id="lang" class="small-input">
                         <option value="English">English</option>
                         <option value="Hebrew">Hebrew</option>
                         <option value="Other">Other</option>
@@ -40,7 +49,7 @@
             </div>
             <div>
                 <label for="browsers-list">Your browser:
-                    <input list="browsers-datalist" id="browsers-list"/>
+                    <input list="browsers-datalist" id="browsers-list" class="large-input"/>
                     <datalist id="browsers-datalist">
                         <option value="Internet Explorer">Internet Explorer</option>
                         <option value="Firefox">Firefox</option>
@@ -51,26 +60,45 @@
                 </label>
             </div>
             <div>
-                <label for="favcolor">Select your favorite color:<input type="color" class="favcolor" id="favcolor" value="#ff0000"/></label>
+                <label for="favcolor">
+                    Select your favorite color:
+                    <input type="color" id="favcolor" value="#ff0000" class="large-input"/>
+                </label>
             </div>
             <div>
-                <label for="bday">Your birthday:<input type="date" class="bday" id="bday"/></label>
+                <label for="bday">
+                    Your birthday:
+                    <input type="date" id="bday" class="small-input"/>
+                </label>
             </div>
-            <meter min="0" low="40" high="90" max="100" value="95" class="hapiness-meter"></meter>
-            <fieldset>
+            <meter min="0" low="40" high="90" max="100" value="95" class="large-input"></meter>
+            <fieldset class="gender-selector">
                 <legend>Select Your Title</legend>
-                <label for="miss">Miss<input type="radio" id="miss" name="gender" class="gender"/></label>
-                <label for="mister">Mister<input type="radio" id="mister" name="gender" class="gender"/></label>
+                <label for="miss">
+                    Miss
+                    <input type="radio" id="miss" name="gender"/>
+                </label>
+                <label for="mister">
+                    Mister
+                    <input type="radio" id="mister" name="gender"/>
+                </label>
             </fieldset>
+            <div>
+                <label for="site-rate">
+                    Rate this site
+                    <input type="range" name="points" min="0" max="10" id="site-rate" class="large-input"/>
+                </label>
+            </div>
             <button type="submit">Send the message</button>
         </form>
     </div>
     <hr class="horizontal-separator"/>
     <form action="http://google.com/search" method="get" class="search">
-        <label for="search-query">Search
+        <label for="search-query">
+            Search in Google
             <input type="text" name="q" id="search-query"/>
         </label>
-        <button type="submit">Go!</button>
+        <button type="submit">Search</button>
     </form>
 </main>
 <footer>
