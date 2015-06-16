@@ -5,7 +5,7 @@ body {
 footer, .container {
   background-color: #F5F5F5;
 }
-.inherit-font {
+.inherited-font {
   color: inherit;
 }
 .menu-item {

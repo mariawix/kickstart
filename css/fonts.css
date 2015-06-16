@@ -4,7 +4,7 @@ body {
 .container, footer {
     font-size: 14px;
 }
-.inherit-font {
+.inherited-font {
     text-decoration: inherit;
     font-size: inherit;
 }
