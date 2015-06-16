@@ -1,0 +1,19 @@
+body {
+  background-color: #808080;
+  color: #696969;
+}
+footer, .container {
+  background-color: #F5F5F5;
+}
+.inherit-font {
+  color: inherit;
+}
+.menu-item {
+  color: #FFFFFF;
+}
+figure.inline-figure {
+  background-color: #FFE4B5;
+}
+form.contact-form {
+  border-color: #131313;
+}

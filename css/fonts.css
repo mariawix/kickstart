@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container, footer {
+    font-size: 14px;
+}
+.inherit-font {
+    text-decoration: inherit;
+    font-size: inherit;
+}
+.menu-item {
+    text-decoration: none;
+    font-size: 20px;
+}
+.current-page, .source-site, .menu-item:hover, .works-list > dt {
+    font-weight: bold;
+}
+.top-menu {
+    text-align: center;
+}
+figure.inline-figure {
+    text-align: center;
+    font-size: 13px;
+}
