@@ -2,10 +2,16 @@
     list-style-type: none;
     padding: 0px 30px 10px 0px;
 }
-footer {
+.page-footer {
     width: 50%;
     margin: 20px auto 0px;     /* auto tells the browser to automatically determine the left and right margins itself, which it does by setting them equally */
     padding: 20px;
+}
+.section-footer {
+    margin-top: 10px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    padding: 5px;
 }
 .container {
     width: 50%;
@@ -13,7 +19,9 @@ footer {
     padding: 20px;
 
 }
-.horizontal-separator {
+.clearfix {
+    display: block;
+    content: "";
     clear: both;
 }
 .menu-item {
@@ -72,7 +80,8 @@ figure.inline-figure > img {
     position: relative;
     left: 20px;
 }
-.contact-form > button {
+.contact-form > button,
+.search-form > button {
     padding: 10px;
     margin: 20px;
     border-radius: 5px;

@@ -1,18 +1,26 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
-.container, footer {
+.container, .page-footer {
     font-size: 14px;
 }
-.inherited-font {
-    text-decoration: inherit;
-    font-size: inherit;
+.section-header {
+    font-size: 110%;
+}
+.article-header {
+    font-size: 120%;
+}
+.top-menu .menu-item > a {
+    text-decoration: none;
 }
 .menu-item {
     text-decoration: none;
     font-size: 20px;
 }
-.current-page, .source-site, .menu-item:hover, .works-list > dt {
+.current-page,
+.source-site,
+.menu-item:hover,
+.works-list > dt {
     font-weight: bold;
 }
 .top-menu {
@@ -22,6 +30,8 @@ figure.inline-figure {
     text-align: center;
     font-size: 13px;
 }
-.contact-form > button {
+.contact-form > button,
+.search-form > button {
     font-size: 15px;
 }
+
