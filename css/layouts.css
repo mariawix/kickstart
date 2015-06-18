@@ -1,5 +1,7 @@
 .no-bullets-list {
     list-style-type: none;
+}
+.padded-list {
     padding: 0px 30px 10px 0px;
 }
 .page-footer {
