@@ -26,7 +26,7 @@ body {
 .top-menu {
     text-align: center;
 }
-figure.inline-figure {
+figure.float-left {
     text-align: center;
     font-size: 13px;
 }
