@@ -6,15 +6,16 @@ body {
 .container {
   background-color: #F5F5F5;
 }
-.top-menu .menu-item > a {
+.menu-item > a {
   color: inherit;
 }
 .menu-item {
   color: #FFFFFF;
 }
-figure.float-left {
+.figure-with-title,
+.wrapped-figure {
   background-color: #FFE4B5;
 }
-.black {
+.link-default-style {
   color: black;
 }

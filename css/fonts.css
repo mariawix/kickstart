@@ -1,37 +1,40 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
-.container, .page-footer {
-    font-size: 14px;
+.top-menu {
+    text-align: center;
 }
-.section-header {
-    font-size: 110%;
-}
-.article-header {
-    font-size: 120%;
-}
-.top-menu .menu-item > a {
+.menu-item > a {
     text-decoration: none;
 }
 .menu-item {
     text-decoration: none;
     font-size: 20px;
 }
+.section-header {
+    font-size: 15px;
+}
+.article-header {
+    font-size: 16px;
+}
+.container {
+    font-size: 15px;
+}
 .current-page,
 .source-site,
 .menu-item:hover,
-.works-list > dt {
+.works-list > dt,
+.paragraph-intro{
     font-weight: bold;
 }
-.top-menu {
-    text-align: center;
-}
-figure.float-left {
+.wrapped-figure,
+.figure-with-title {
     text-align: center;
     font-size: 13px;
 }
-.contact-form > button,
-.search-form > button {
+.btn {
     font-size: 15px;
 }
-
+.page-footer {
+    font-size: 14px;
+}

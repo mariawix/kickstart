@@ -1,31 +1,3 @@
-.no-bullets-list {
-    list-style-type: none;
-}
-.padded-list {
-    padding: 0 30px 10px 0;
-}
-.page-footer {
-    width: 50%;
-    margin: 20px auto 0;     /* auto tells the browser to automatically determine the left and right margins itself, which it does by setting them equally */
-    padding: 20px;
-}
-.section-footer {
-    margin-top: 10px;
-    border-top-width: 1px;
-    border-top-style: solid;
-    padding: 5px;
-}
-.container {
-    width: 50%;
-    margin: 0 auto;     /* auto tells the browser to automatically determine the left and right margins itself, which it does by setting them equally */
-    padding: 20px;
-
-}
-.clearfix {
-    display: block;
-    content: "";
-    clear: both;
-}
 .menu-item {
     height: 40px;
     padding-right: 5px;
@@ -33,41 +5,65 @@
     display: inline-block;
     margin-right: 20px;
 }
-.round-box {
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+.blog-post {
     margin-bottom: 10px;
     border-style: solid;
     border-width: 1px;
     padding: 5px;
     border-radius: 10px;
 }
-/* Lists */
 .works-list > dt {
     margin-bottom: 10px;
 }
 .works-list > dd {
     margin-bottom: 20px;
 }
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.section-footer,
+.article-footer {
+    margin-top: 10px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    padding: 5px;
+}
+.page-footer {
+    width: 50%;
+    margin: 20px auto 0;
+    padding: 20px;
+}
 
-/* Images */
-figure.float-left {
-    float: left;
-    margin: 0 30px 0 0;
- }
-img.padded-img {
-    margin-bottom: 20px;
+/*
+ * Images and Figures
+ */
+.figure-with-title > img {
+    margin: 0 auto;
     max-width: 220px;
+ }
+.grid-gallery {
+    list-style-type: none;
+}
+.grid-gallery > li,
+.wrapped-figure {
+    float: left;
 }
 
-.gender-selector {
-    border: none;
-    margin-left: -10px;
-}
-.gender-selector > label:not(:empty) {
-    margin: 10px 2px 5px 20px;
-}
+
+/*
+ * Forms
+ */
 .large-input {
     display: block;
-    max-width: 300px;
+    max-width: 320px;
     margin: 5px 0 10px 0;
     padding: 5px;
     position: relative;
@@ -75,15 +71,28 @@ img.padded-img {
 }
 .small-input {
     display: block;
-    max-width: 100px;
+    max-width: 120px;
     margin: 5px 0 10px 0;
     padding: 5px;
     position: relative;
     left: 20px;
 }
-.contact-form > button,
-.search-form > button {
+.gender-selector {
+    border: none;
+    margin-left: -10px;
+}
+.gender-selector > label {
+    margin: 10px 2px 5px 20px;
+}
+.btn-default-style {
     padding: 10px;
     margin: 20px;
     border-radius: 5px;
+}
+.contact-form {
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    border-radius: 10px;
 }

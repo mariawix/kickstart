@@ -10,3 +10,6 @@
     margin: -1px; padding: 0; border: 0;
     text-align: left;
 }
+.source-site:before {
+    content: '\00a9 \0020';
+}
